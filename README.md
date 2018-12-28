@@ -1,7 +1,5 @@
 # Consumindo a API do Zabbix Server utilizando Python
 
-Este projeto proporciona a extração de dados e operações no Zabbix Server por meio do consumo da API do Zabbix utilizando a linguagem Python.
-
 No universo de números e informações gerados pelo Zabbix, desenvolvi scripts para diversas operações, como a extração de dados, manutenção e ajuste de informações no ZabbixServer através da API usando Python.
 
 ## Requisitos
