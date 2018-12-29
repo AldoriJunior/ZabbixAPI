@@ -4,7 +4,7 @@ No universo de números e informações gerados pelo Zabbix, desenvolvi scripts 
 
 ## Requisitos
 
-- ZabbixServer Versão 3.2 ou superior
+- ZabbixServer 3.2 ou superior
 - Python 3.5 ou superior
 
 ## Instalação
@@ -30,6 +30,17 @@ password = getpass.getpass('\nInforme a senha: ')
 
 Aqui listo os scripts disponibilizados e suas funções:
 
-- Extração de itens e triggers de todos os HostID de um GroupID através de um menu que lista automaticamente todos os GroupID e Nome do seu Zabbix.
+- Extração de itens e triggers de todos os HostID de um GroupID através de um menu que lista automaticamente todos os GroupID e Nome do seu Zabbix. Os dados são extraídos para um arquivo XLS de local a definir pelo executor.
+
   - Zabbix_ExtractItem&TriggerFomGroupID.py
 
+- Consulta de Dados Recentes de Itens através dos filtros GroupID -> HostID -> ItemID -> Data de Início e Fim.
+
+  - Zabbix_ConsultarDadosRecentes.py
+
+## Execução dos Scripts
+
+Para executar os scripts:
+```
+python script.py
+```
