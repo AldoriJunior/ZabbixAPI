@@ -37,6 +37,10 @@ Aqui listo os scripts disponibilizados e suas funções:
 - Consulta de Dados Recentes de Itens através dos filtros GroupID -> HostID -> ItemID -> Data de Início e Fim.
 
   - Zabbix_ConsultarDadosRecentes.py
+  
+  - Zabbix Tools - Script para gerenciamento do seu Zabbix, extração de relatórios e gerenciamento de períodos de manutenção!
+
+  - ZabbixTools.py
 
 ## Execução dos Scripts
 
